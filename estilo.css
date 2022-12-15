@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+}
+
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #D1EFFA;
+    
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(fondo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.nav{
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+
+.logo{
+    font-size: 25px;
+    color:#fff;
+    font-weight: 100;
+}
+.menu{
+    display:flex;
+   
+}
+
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.menu li a:hover{
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.conte{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px;
+}
+
+#img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obje{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align:justify;
+    max-width: 1300px;
+}
+
+.tip{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+#tipos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.estru{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align:justify;
+    max-width: 1300px;
+}
+
+.est{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.iesc{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.que{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px;
+}
+
+.estu{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.diar{
+   margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px; 
+}
+
+#isc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.los{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.sis{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px; 
+}
+
+.temas{
+    display:flex; 
+}
+
+.electronica{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.elec{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px;
+}
+
+#electro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.historia{
+     text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.histo{
+     margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px;
+}
+
+.usos{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.elec{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px;
+}
+
+#usos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.udt{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.ccs{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: justify;
+    max-width: 1300px;
+}
+
+#daw{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#diseño{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dod{
+     margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: justify;
+    max-width: 1300px;
+}
+
+.son{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.tcq{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.ddd{
+    margin: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: justify;
+    max-width: 1300px;
+}
+
+#ulti{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
